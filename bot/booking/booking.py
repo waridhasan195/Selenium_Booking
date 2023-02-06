@@ -27,7 +27,7 @@ class Booking(webdriver.Chrome):
         self.get(const.BASE_URL)
 
         try:
-            print("Add Contains.")
+            print("Add Contains. But Not all Times")
             adds = self.find_element('XPATH', '//*[@id="close"]')
             adds.click()
             print("Clicked")

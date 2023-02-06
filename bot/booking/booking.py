@@ -104,7 +104,8 @@ class Booking(webdriver.Chrome):
 
         for _ in range(count - 1):
             inclease_button_element.click()
-        print("Adults Inclease Complete.")
+        print("Peoples Confirmation Complete.")
+
 
 
     def click_search(self):
@@ -114,6 +115,7 @@ class Booking(webdriver.Chrome):
         search_button.click()
         print("Search Comlete.")
     
+
 
     def apply_filtration(self):
         filtration = BookingFiltration(driver = self)
